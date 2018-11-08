@@ -1,6 +1,6 @@
 require "test_helper"
 
-class MoiraTest < Minitest::Test
+class MoiraTest < Test::Unit::TestCase
   def test_that_it_has_a_version_number
     refute_nil ::Moira::VERSION
   end
